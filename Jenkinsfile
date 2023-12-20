@@ -36,5 +36,12 @@ pipeline {
       }
     }
 
+    stage('production deploy') {
+      steps {
+        sh 'touch test2223.txt'
+        echo 'hello world i am tushar pawar'
+      }
+    }
+
   }
 }
